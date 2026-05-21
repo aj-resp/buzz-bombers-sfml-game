@@ -1,7 +1,7 @@
 # 🐝 Buzz Bombers — SFML Game
 
 A simple 2D arcade shooting game made in C++ using the SFML library.  
-This project is inspired by the classic Buzz Bombers game and includes multiple levels, enemy bees, sound effects, textures, score tracking, and menu screens.
+This project is inspired by the classic Buzz Bombers game and includes multiple levels, enemy bees, score tracking, sound effects, and menu screens.
 
 ---
 
@@ -11,28 +11,29 @@ This project is inspired by the classic Buzz Bombers game and includes multiple 
 ![Main Menu](images/MainScreen.png)
 
 ### Level Selection
-![Level Selection](images/LevelMenu.png)
+![Level Selection](images/Level%20Menu.png)
 
-### Gameplay
-![Gameplay](images/screenshot1.png)
+### Gameplay — Level 1
+![Level 1](images/Level1.png)
 
-![Gameplay 2](images/screenshot2.png)
+### Gameplay — Level 2
+![Level 2](images/Level2.png)
 
-### High Scores
-![High Scores](images/LeaderBoard.png)
+### Leaderboard
+![Leaderboard](images/LeaderBoard.png)
 
 ---
 
 ## 🎮 Features
 
-- Multiple game levels
-- Worker bees and killer bees
+- Multiple levels
+- Enemy bee movement
 - Score system
 - Sound effects and music
 - Main menu and level selection
-- Textures and sprites using SFML
 - Shooting mechanics
-- Simple enemy movement AI
+- Simple enemy AI
+- Textures and sprites using SFML
 
 ---
 
@@ -41,14 +42,21 @@ This project is inspired by the classic Buzz Bombers game and includes multiple 
 - C++
 - SFML Library
 - Object Oriented Programming
-- g++
+- GNU G++
 
 ---
 
-## 🚀 How to Run
+# 🚀 Complete Setup, Compilation and Running Guide
 
-### Install Requirements
+## Step 1 — Open Ubuntu Terminal
 
-```bash
+Open terminal in Ubuntu/Linux.
+
+---
+
+## Step 2 — Install GNU G++ Compiler
+
+Run this command:
+
+```bash id="jph2qk"
 sudo apt-get install g++
-sudo apt-get install libsfml-dev
